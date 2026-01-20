@@ -43,14 +43,14 @@ from datetime import datetime, timedelta
 # ============================================
 
 SHEET_URLS = {
-    "platforms": "",  # Paste your platforms tab CSV URL here
-    "titles": "",     # Paste your titles tab CSV URL here
-    "genres": "",     # Paste your genres tab CSV URL here
-    "regions": "",    # Paste your regions tab CSV URL here
+    "platforms": "https://docs.google.com/spreadsheets/d/e/2PACX-1vT_-4nL7L0B90pPRqkI8rAIXcVr75A7wrg6T28cfZefl-ukGyW2pgqkfv-ZeEcs3SjBPgwnx1L9i5mv/pub?gid=1459790836&single=true&output=csv",  # Paste your platforms tab CSV URL here
+    "titles": "https://docs.google.com/spreadsheets/d/e/2PACX-1vT_-4nL7L0B90pPRqkI8rAIXcVr75A7wrg6T28cfZefl-ukGyW2pgqkfv-ZeEcs3SjBPgwnx1L9i5mv/pub?gid=127623823&single=true&output=csv",     # Paste your titles tab CSV URL here
+    "genres": "https://docs.google.com/spreadsheets/d/e/2PACX-1vT_-4nL7L0B90pPRqkI8rAIXcVr75A7wrg6T28cfZefl-ukGyW2pgqkfv-ZeEcs3SjBPgwnx1L9i5mv/pub?gid=1423857329&single=true&output=csv",     # Paste your genres tab CSV URL here
+    "regions": "https://docs.google.com/spreadsheets/d/e/2PACX-1vT_-4nL7L0B90pPRqkI8rAIXcVr75A7wrg6T28cfZefl-ukGyW2pgqkfv-ZeEcs3SjBPgwnx1L9i5mv/pub?gid=57981399&single=true&output=csv",    # Paste your regions tab CSV URL here
 }
 
 # Set to True once you've added your Google Sheet URLs
-USE_GOOGLE_SHEETS = False
+USE_GOOGLE_SHEETS = True
 
 # ============================================
 # PAGE CONFIG
